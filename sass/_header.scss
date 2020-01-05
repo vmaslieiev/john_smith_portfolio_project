@@ -1,0 +1,121 @@
+header {
+  background: url("../img/Layer_2.png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15263e;
+    height: 110px;
+    font-family: $font-primary;
+
+    .nav-links {
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      margin: 0 auto;
+
+      span {
+        color: white;
+      }
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+    .nav-links a:hover{
+      color: gold;
+    }
+
+    .burger-wrap {
+      display: none;
+    }
+
+    .burger-name-menu {
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      float: left;
+    }
+
+    .burger {
+      cursor: pointer;
+      float: right;
+    }
+
+    .burger div {
+      width: 25px;
+      height: 2px;
+      background-color: white;
+      margin: 4px;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .nameOfDesigner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+
+    .hello p {
+      color: white;
+      font-family: $font-primary;
+      font-size: 47px;
+      padding-bottom: 10px;
+    }
+
+    .name p {
+      display: flex;
+      align-items: center;
+      width: 444px;
+      height: 100px;
+      background-image: linear-gradient(to top right, #2078d6, #ac1ddb, #e81cc6, #ff0072);
+      font-family: $font-primary;
+      font-size: 117px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .surname p {
+      font-family: $font-primary;
+      font-size: 80px;
+      color: white;
+      height: 80px;
+      display: flex;
+      align-items: center;
+    }
+
+    .iHave p {
+      color: white;
+      font-family: $font-primary;
+      font-size: 21px;
+      padding-bottom: 100px;
+    }
+
+    .downloadCv-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 214px;
+      height: 67px;
+      background-image: linear-gradient(to top right, #2078d6, #ac1ddb, #e81cc6, #ff0072);
+      color: white;
+      font-family: $font-primary;
+      border-radius: 7px;
+      font-weight: bold;
+      outline: none;
+    }
+    .downloadCv-btn:hover{
+      color: #3b56b1;
+      cursor: pointer;
+      background: linear-gradient(to top right, #ccff66 0%, #ff3300 100%);
+    }
+  }
+}

@@ -1,0 +1,173 @@
+#experience {
+  background: linear-gradient(to top right, #000099 0%, #ff0066 100%);
+  .experience-main-title {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 110px;
+    color: white;
+    .experience-title {
+      font-size: 50px;
+      line-height: 2.26;
+      letter-spacing: 3.75px;
+    }
+    .experience-title-text {
+      font-size: 18px;
+      letter-spacing: 1.35px;
+    }
+  }
+
+  .experience-content {
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 73%;
+    .experience-content-item1 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+      .experience-item1-title {
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .experience-profession-title {
+          font-size: 21px;
+          letter-spacing: 1.88px;
+          font-weight: bold;
+        }
+        .experience-profession-title-years {
+          font-size: 18px;
+          letter-spacing: 1.65px;
+          text-align: right;
+          padding-top: 15px;
+          font-weight: bold;
+        }
+      }
+      .experience-item1-rectangle {
+        width: 14px;
+        height: 62px;
+        background-color: #dcdcde;
+        margin-right: 37px;
+      }
+      .experience-item1-info {
+        width: 69%;
+        line-height: 1.7;
+        letter-spacing: 1.13px;
+        font-size: 15px;
+      }
+    }
+    .experience-content-item2 {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 100px;
+      .experience-item2-title {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .experience-profession-title {
+          font-size: 21px;
+          letter-spacing: 1.88px;
+          font-weight: bold;
+        }
+        .experience-profession-title-years {
+          font-size: 18px;
+          letter-spacing: 1.65px;
+          text-align: left;
+          padding-top: 15px;
+          font-weight: bold;
+        }
+      }
+      .experience-item2-rectangle {
+        width: 14px;
+        height: 62px;
+        background-color: #dcdcde;
+        margin-left: 37px;
+      }
+      .experience-item2-info {
+        width: 69%;
+        line-height: 1.7;
+        letter-spacing: 1.13px;
+        font-size: 15px;
+        text-align: right;
+      }
+    }
+    .experience-content-item3 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+      .experience-item3-title {
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .experience-profession-title {
+          font-size: 21px;
+          letter-spacing: 1.88px;
+          font-weight: bold;
+        }
+        .experience-profession-title-years {
+          font-size: 18px;
+          letter-spacing: 1.65px;
+          text-align: right;
+          padding-top: 15px;
+          font-weight: bold;
+        }
+      }
+      .experience-item3-rectangle {
+        width: 14px;
+        height: 62px;
+        background-color: #dcdcde;
+        margin-right: 37px;
+      }
+      .experience-item3-info {
+        width: 69%;
+        line-height: 1.7;
+        letter-spacing: 1.13px;
+        font-size: 15px;
+      }
+    }
+    .experience-content-item4 {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 100px;
+      .experience-item4-title {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .experience-profession-title {
+          font-size: 21px;
+          letter-spacing: 1.88px;
+          font-weight: bold;
+        }
+        .experience-profession-title-years {
+          font-size: 18px;
+          letter-spacing: 1.65px;
+          text-align: left;
+          padding-top: 15px;
+          font-weight: bold;
+        }
+      }
+      .experience-item4-rectangle {
+        width: 14px;
+        height: 62px;
+        background-color: #dcdcde;
+        margin-left: 37px;
+      }
+      .experience-item4-info {
+        width: 69%;
+        line-height: 1.7;
+        letter-spacing: 1.13px;
+        font-size: 15px;
+        text-align: right;
+      }
+    }
+  }
+}

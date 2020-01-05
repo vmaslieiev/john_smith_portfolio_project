@@ -1,0 +1,75 @@
+#reviews {
+  height: 625px;
+  background: url("../img/Layer_4.png") no-repeat;
+
+  .review-title {
+    color: white;
+    font-family: $font-primary;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 130px;
+    text-align: center;
+  }
+
+  .review-quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    .quotes {
+      color: white;
+      width: 605px;
+      height: 145px;
+      display: flex;
+      .left-hook {
+        height: 25px;
+        font-family: $font-secondary;
+        p {
+          font-size: 60px;
+          height: inherit;
+        }
+      }
+      .text-of-quote {
+        font-family: $font-primary;
+        line-height: 2;
+        letter-spacing: 1.13px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        text-align: end;
+      }
+      .right-hook {
+        height: 25px;
+        font-family: $font-secondary;
+        display: flex;
+        align-self: flex-end;
+        p {
+          height: inherit;
+          font-size: 60px;
+        }
+      }
+    }
+    .quotes-author-ico {
+      width: 147px;
+      height: 147px;
+      background: url("../img/Layer_5.png") no-repeat;
+      margin-left: 50px;
+    }
+    .quotes-author-info {
+      margin-left: 50px;
+      .quotes-author-name {
+        color: white;
+        font-size: 34px;
+        font-weight: bolder;
+      }
+      .quotes-author-profession {
+        padding-top: 15px;
+        font-size: 15px;
+        letter-spacing: 1.13px;
+        text-align: center;
+        color: #67e0b3;
+        font-weight: bold;
+      }
+    }
+  }
+}

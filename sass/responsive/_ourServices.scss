@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px){
+  #ourServices{
+    margin: 85px 10px 150px 10px;
+
+    .board-of-services{
+      .board-of-services-top-block{
+        .first-item-top-block{
+          .first-item-name-top-block{
+            text-align: center;
+          }
+        }
+        .second-item-top-block{
+          .second-item-name-top-block{
+            text-align: center;
+          }
+        }
+        .third-item-top-block{
+          .third-item-name-top-block{
+            text-align: center;
+          }
+        }
+      }
+
+      .board-of-services-bottom-block{
+        .first-item-bottom-block{
+          .first-item-name-bottom-block{
+            text-align: center;
+          }
+        }
+        .second-item-bottom-block{
+          .second-item-name-bottom-block{
+            text-align: center;
+          }
+        }
+        .third-item-bottom-block{
+          .third-item-name-bottom-block{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

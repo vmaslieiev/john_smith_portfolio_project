@@ -1,0 +1,43 @@
+@media screen and (max-width: 1024px){
+  #designer-contacts{
+    display: flex;
+    .designer-phone-number{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .designer-phone-number-circle{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    .designer-address{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .designer-address-circle{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    .designer-email{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .designer-email-circle{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

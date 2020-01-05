@@ -1,0 +1,119 @@
+#designerInfo-container {
+  height: 600px;
+  background: url("../img/Layer_3.png") center no-repeat;
+
+  .about-designer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 135px;
+    width: 100%;
+
+
+    .some-info-about-designer {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      text-align: right;
+
+      .some-info-about-designer-title {
+        color: #15263e;
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+      .some-info-about-designer-direction {
+        color: #a21af0;
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 40px;
+      }
+      .some-info-about-designer-text {
+        font-size: 15px;
+        line-height: 1.7;
+        letter-spacing: 1.13px;
+        color: #494949;
+      }
+    }
+
+    .skills-scale {
+      .scale-title {
+        font-size: 18px;
+        letter-spacing: 1.35px;
+        text-align: center;
+        color: #4d4d4d;
+        padding-bottom: 15px;
+        font-weight: bold;
+      }
+      .design-skill {
+        padding-bottom: 45px;
+        .design-scale {
+          width: 300px;
+          height: 11px;
+          border-radius: 7px;
+          background: #333 linear-gradient(#333, #969696) no-repeat;
+          overflow: hidden;
+          .design-scale-complete {
+            width: 80%;
+            height: 100%;
+            box-sizing: border-box;
+            background: linear-gradient(to right, purple, crimson, orangered, gold) no-repeat;
+            box-shadow: 0 0 6px 0 black;
+          }
+        }
+      }
+
+      .photography-skill {
+        padding-bottom: 45px;
+        .photography-scale {
+          width: 300px;
+          height: 11px;
+          border-radius: 7px;
+          background: #333 linear-gradient(#333, #969696) no-repeat;
+          overflow: hidden;
+          .photography-scale-complete {
+            width: 65%;
+            height: 100%;
+            box-sizing: border-box;
+            background: linear-gradient(to right, purple, crimson, orangered, gold) no-repeat;
+            box-shadow: 0 0 6px 0 black;
+          }
+        }
+      }
+
+      .marketing-skill {
+        padding-bottom: 45px;
+        .marketing-scale {
+          width: 300px;
+          height: 11px;
+          border-radius: 7px;
+          background: #333 linear-gradient(#333, #969696) no-repeat;
+          overflow: hidden;
+          .marketing-scale-complete {
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+            background: linear-gradient(to right, purple, crimson, orangered, gold) no-repeat;
+            box-shadow: 0 0 6px 0 black;
+          }
+        }
+      }
+
+      .branding-skill {
+        .branding-scale {
+          width: 300px;
+          height: 11px;
+          border-radius: 7px;
+          background: #333 linear-gradient(#333, #969696) no-repeat;
+          overflow: hidden;
+          .branding-scale-complete {
+            width: 30%;
+            height: 100%;
+            box-sizing: border-box;
+            background: linear-gradient(to right, purple, crimson, orangered, gold) no-repeat;
+            box-shadow: 0 0 6px 0 black;
+          }
+        }
+      }
+    }
+  }
+}

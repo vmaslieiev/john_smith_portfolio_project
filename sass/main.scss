@@ -1,0 +1,29 @@
+// desktop
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'main-wrap';
+@import 'header';
+@import 'designerContacts';
+@import 'designerInfo';
+@import 'ourServices';
+@import 'reviews';
+@import 'portfolio';
+@import 'experience';
+@import 'blog';
+@import 'contactUs';
+@import 'footer';
+
+// responsive
+
+@import 'responsive/header';
+@import 'responsive/designerContacts';
+@import 'responsive/designerInfo';
+@import 'responsive/ourServices';
+@import 'responsive/reviews';
+@import 'responsive/portfolio';
+@import 'responsive/experience';
+@import 'responsive/blog';
+@import 'responsive/contactUs';
+@import 'responsive/footer';

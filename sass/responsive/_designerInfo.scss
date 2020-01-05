@@ -1,0 +1,47 @@
+@media screen and (max-width: 1024px){
+  #designerInfo-container{
+    .about-designer{
+      display: flex;
+      .some-info-about-designer{
+        display: flex;
+      }
+
+      .skills-scale{
+            .design-skill{
+              padding-bottom: 25px;
+            }
+            .photography-skill{
+              padding-bottom: 25px;
+            }
+            .marketing-skill{
+              padding-bottom: 25px;
+            }
+          }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  #designerInfo-container{
+    .about-designer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+
+      .some-info-about-designer{
+        text-align: center;
+        .some-info-about-designer-direction{
+          color: white;
+        }
+      }
+      
+      .skills-scale{
+        padding-top: 20px;
+        .scale-title{
+          color: rgb(15, 13, 7);
+        }
+      }
+    }
+  }
+}

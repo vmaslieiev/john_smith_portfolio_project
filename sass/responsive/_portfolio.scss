@@ -1,0 +1,181 @@
+@media screen and (max-width: 1280px){
+  #portfolio{
+    .portfolio-main-content{
+      .portfolio-content-left-block{
+        margin-left: 15px;
+        text-align: center;
+      }
+
+      .portfolio-content-right-block{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0;
+        .portfolio-content-item1 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+        .portfolio-content-item2 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+        .portfolio-content-item3 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+        .portfolio-content-item4 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+        .portfolio-content-item5 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+        .portfolio-content-item6 img{
+          width: 300px;
+          height: 244.5px; 
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px){
+  #portfolio{
+    .portfolio-main-content{
+      .portfolio-content-left-block{
+        margin-left: 30px;
+        text-align: center;
+      }
+
+      .portfolio-content-right-block{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0;
+        .portfolio-content-item1 img{
+          width: 225px;
+          height: 169.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item2 img{
+          width: 225px;
+          height: 169.5px; 
+        }
+        .portfolio-content-item3 img{
+          width: 225px;
+          height: 169.5px; 
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item4 img{
+          width: 225px;
+          height: 169.5px; 
+        }
+        .portfolio-content-item5 img{
+          width: 225px;
+          height: 169.5px; 
+        }
+        .portfolio-content-item6 img{
+          width: 225px;
+          height: 169.5px;   
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 668px){
+  #portfolio{
+    .portfolio-main-content{
+      .portfolio-content-left-block{
+        margin-left: 30px;
+        text-align: center;
+      }
+
+      .portfolio-content-right-block{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0;
+        .portfolio-content-item1 img{
+          width: 175px;
+          height: 119.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item1 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+        .portfolio-content-item2 img{
+          width: 175px;
+          height: 119.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item2 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+        .portfolio-content-item3 img{
+          width: 175px;
+          height: 119.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item3 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+        .portfolio-content-item4 img{
+          width: 175px;
+          height: 119.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item4 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+        .portfolio-content-item5 img{
+          width: 175px;
+          height: 119.5px;
+          margin-bottom: 10px;
+        }
+        .portfolio-content-item5 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+        .portfolio-content-item6 img{
+          width: 175px;
+          height: 119.5px;   
+        }
+        .portfolio-content-item6 img:hover{
+          width: 200px;
+          height: 144.5px;
+          transition: 0.5s ease;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border-radius: 5%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

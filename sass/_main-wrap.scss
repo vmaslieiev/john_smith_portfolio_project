@@ -1,0 +1,9 @@
+body {
+  max-width: $grid-width-primary;
+}
+
+#main-wrap {
+  width: $grid-width-primary;
+  max-width: 1600px;
+  margin: 0 auto;
+}

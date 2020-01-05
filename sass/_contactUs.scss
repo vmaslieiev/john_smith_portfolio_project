@@ -1,0 +1,81 @@
+#contact-us {
+  height: 776px;
+  background: url("../img/Layer\ 9.png") no-repeat;
+  position: relative;
+
+  .contact-us-main-rectangle {
+    width: 73%;
+    height: 638px;
+    background-color: #15263e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    .contact-us-main-title {
+      color: white;
+      margin-top: 80px;
+      text-align: center;
+      .contact-us-title {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 43px;
+      }
+      .contact-us-title-text {
+        font-size: 18px;
+        margin-bottom: 75px;
+      }
+    }
+    .contact-us-main-form {
+      text-align: center;
+      .contact-us-name-input {
+        width: 23%;
+        height: 55px;
+        margin-right: 25px;
+        padding-left: 25px;
+        outline: none;
+        border: 0;
+      }
+      .contact-us-phone-input {
+        width: 26%;
+        height: 55px;
+        margin-right: 25px;
+        padding-left: 25px;
+        outline: none;
+        border: 0;
+      }
+      .contact-us-email-input {
+        width: 26%;
+        height: 55px;
+        outline: none;
+        padding-left: 25px;
+        border: 0;
+      }
+      .contact-us-message-textarea {
+        width: 92%;
+        height: 93px;
+        margin-bottom: 35px;
+        margin-top: 22px;
+        padding-top: 15px;
+        padding-left: 20px;
+        outline: none;
+        border: 0;
+      }
+    }
+    .contact-us-btn {
+      display: block;
+      margin: auto;
+      width: 214px;
+      height: 67px;
+      background-image: linear-gradient(to top right, #2078d6, #ac1ddb, #e81cc6, #ff0072);
+      color: white;
+      font-family: $font-primary;
+      border-radius: 7px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      border: 0;
+    }
+  }
+}
